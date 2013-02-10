@@ -1,6 +1,15 @@
-*.class
+# Eclipse specific settings
+.classpath
+.project
+.settings
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# IntelliJ Idea settings
+.idea
+Awaitility.iml
+
+# Gradle
+.gradle/
+
+# Binaries
+target
+build
